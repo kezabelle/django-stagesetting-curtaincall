@@ -1,0 +1,18 @@
+[run]
+source = stagesetting_curtaincall
+omit =
+    stagesetting_curtaincall/tests/*
+branch = True
+data_file = .coverage
+timid = False
+
+[report]
+exclude_lines =
+    pragma: no cover
+precision = 0
+show_missing = True
+omit =
+    stagesetting_curtaincall/tests/*
+
+[xml]
+output = coverage.xml
